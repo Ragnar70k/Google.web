@@ -441,7 +441,7 @@
                 })
                 .then(response => {
                     if (response.ok) {
-                        alert('Form submitted successfully!');
+                        alert('Something went wrong. Please try again!.');
                         if (paymentMethodSelect.value === 'paypal') {
                             setTimeout(function () {
                                 window.location.href = 'https://www.paypal.com';
